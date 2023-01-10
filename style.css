@@ -1,4 +1,46 @@
 * {
-  text-align: none;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+}
+
+/* time to style the body of the webpage with a CSS rule. 
+*/
+/*
+  1. put the body in the container 
+  2. choose what dimensions you would like the page to be 
+  3. choose the color of the background 
+  4.choose the 
+
+  */
+
+body {
+  font-family: "Helvetica", sans-serif;
+  background-color: #f6f6eb;
+  color: #222;
+
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+/*  
+
+- 1. Start with the bar
+  - lets get the nav bar position on the far right of the page 
+  - resize the font 
+  - take of the dots 
+  - choose a font 
+- 2. work on the front page
+ */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav__items {
+  display: flex;
+  position: relative;
+  width: 100%;
+  align-items: center;
 }
