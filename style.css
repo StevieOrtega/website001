@@ -23,24 +23,36 @@ body {
   min-height: 100vh;
   flex-direction: column;
 }
-/*  
+/*  Nav bar */
 
-- 1. Start with the bar
-  - lets get the nav bar position on the far right of the page 
-  - resize the font 
-  - take of the dots 
-  - choose a font 
-- 2. work on the front page
- */
+/*  1.  postion the nav bar in a horizontal postion
+    2. postion the logo to the left and the links to the righ t
+    3. change the font to desired size
+
+
+    */
+
 nav {
+  margin-top: 5px;
+  border: solid 5px pink;
+}
+.nav__items {
+  border: #222 5px solid;
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
 }
 
-.nav__items {
+.main-nav-items {
+  border: 2px solid blue;
   display: flex;
-  position: relative;
-  width: 100%;
-  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-item {
+  width: 90px;
+}
+
+ul {
+  list-style-type: none;
 }
