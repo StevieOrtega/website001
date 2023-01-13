@@ -33,18 +33,15 @@ body {
     */
 
 nav {
-  margin-top: 5px;
-  border: solid 5px pink;
+  margin: 5px 0;
 }
 .nav__items {
-  border: #222 5px solid;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .main-nav-items {
-  border: 2px solid blue;
   display: flex;
   justify-content: space-between;
 }
@@ -55,4 +52,9 @@ nav {
 
 ul {
   list-style-type: none;
+}
+
+.backImg {
+  height: 50%;
+  width: 100%;
 }
