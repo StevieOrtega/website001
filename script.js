@@ -7,6 +7,7 @@
 " use strict";
 //Variables
 const backImg = document.getElementById("background-img");
+const videoImg = document.getElementById("video-container");
 
 const createFrontPageText = function () {
   const textBox = document.createElement("div");
@@ -28,6 +29,13 @@ const displayBackImg = function () {
 };
 displayBackImg();
 
+const displayVideoImg = function () {
+  const img = document.createElement("img");
+  img.className = "videoImg";
+  img.src = "/img/TigerKing.jpg";
+  videoImg.appendChild(img);
+};
+displayVideoImg();
 /*         
   ----- To D0 --------
   1. input the text over the back ground image. 
